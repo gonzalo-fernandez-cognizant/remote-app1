@@ -87,7 +87,6 @@ module.exports = {
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             template: './component/index.html',
-            chunks: ['index'],
             meta: {
                 description: 'Meta tag inserted from webpack'
             },
